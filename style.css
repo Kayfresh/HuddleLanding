@@ -1,11 +1,11 @@
 @font-face {
   font-family: Poppins;
-  src: url(https://fonts.googleapis.com/css2?family=Poppins&display=optional);
+  src: url(https://fonts.googleapis.com/css2?family=Poppins);
 }
 
 @font-face { 
   font-family: Open+Sans;
-  src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=optional);
+  src: url(https://fonts.googleapis.com/css2?family=Open+Sans);
 } 
 
 body {
@@ -47,12 +47,12 @@ nav img {
 .text h1 {
   width: 80%;
   color: #fff;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 37px;
 }
 
 .text p {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 100;
   color: #fff3ff;
   font-size: 17px;
