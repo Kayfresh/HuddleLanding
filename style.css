@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Poppins;
+  src: url(https://fonts.googleapis.com/css2?family=Poppins&display=optional);
+}
+
+@font-face { 
+  font-family: Open+Sans;
+  src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=optional);
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #674bb1 url(/Resources/bg-desktop.svg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+nav {
+  margin: 0 0 40px;
+}
+
+nav img {
+  width: 200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.content img {
+  width: 650px;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+.text h1 {
+  width: 80%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 37px;
+}
+
+.text p {
+  font-family: Open Sans;
+  font-weight: 100;
+  color: #fff3ff;
+  font-size: 17px;
+  width: 95%;
+  line-height: 25px;
+}
+
+.text button {
+  background-color: #fff;
+  padding: 10px 47px;
+  font-size: 16px;
+  color: #e980e7;
+  border: 0;
+  border-radius: 30px;
+  font-family: Poppins;
+  transition: 0.2s ease-in-out;
+}
+
+.text button:hover {
+  background-color: #e980e7;
+  color: #fff;
+  z-index: 999;
+  scale: 1.1;
+  box-shadow: 5px 5px 15px 2px #513a8b;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-self: self-end;
+  gap: 20px;
+  margin: 0px 50px 0px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  transition: 0.2s ease-in-out;
+}
+
+.socials a:hover {
+  color: #e980e7;
+}
+
+@media screen and (max-width: 900px) {
+  
+}
